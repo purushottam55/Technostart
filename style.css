@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    top: 0;
+    cursor: pointer;
+    justify-content: space-around;
+}
+
+.background {
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: 0%;
+}
+
+.logo img {
+    height: 100px;
+    border-radius: 60px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 50px 40px;
+    justify-content: space-around;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 22;
+    float: right;
+    font-weight: bold;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#active {
+    color: #064663;
+    font-stretch: extra-expanded;
+    font-size: 28;
+    border: 2px solid rgb(243, 232, 232);
+    border-radius: 15px;
+    font-size: 28;
+    background-color: #EDD2F3;
+}
+
+.nav-list li a:hover {
+    color: #064663;
+    transition: 0.3s ease;
+    font-stretch: extra-expanded;
+    font-size: 28;
+    border: 2px solid rgb(243, 232, 232);
+    border-radius: 15px 20px 20px 12px;
+    background-color: #EDD2F3;
+}
+
+.rightnav {
+    width: 20%;
+    text-align: center;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.whitesec {
+    background-color: rgb(253, 223, 223);
+    height: 800px;
+}
+
+.firstsection {
+    background-image: url("/images/imgb2.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.secondsection {
+    background-image: url("/images/techimg2.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+}
+
+.firsthalf {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf {
+    width: 50%;
+}
+
+.companyname {
+    font-family: 'Monoton', cursive;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20%;
+    color: rgb(240, 14, 14);
+}
+
+.text-big2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 85px;
+    text-align: center;
+    color: rgb(192, 176, 176);
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.tagn {
+    font-size: 45;
+    font-family: 'Exo 2', sans-serif;
+    color: bisque;
+    position: absolute;
+    left: 33%;
+    margin-top: -2%;
+}
+
+.tagn:hover {
+    font-size: 56;
+    transition: width 2s, height 4s;
+}
+
+.tagline {
+    font-family: 'Black Ops One', cursive;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    right: inherit;
+    top: 30;
+    color: rgb(201, 180, 180);
+    margin-left: 33%;
+    border: outset;
+    border-left: transparent;
+    border-radius: 15px;
+    width: 28%;
+    margin-left: 45%;
+    transition: width 2s, height 4s;
+}
+
+.tagline:hover {
+    font-size: 58px;
+    text-align: center;
+    width: 40%;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.section {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: auto;
+}
+
+.section-Left {
+    flex-direction: row-reverse;
+}
+
+.center {
+    text-align: center;
+}
+
+.lapyimg {
+    background-image: url("imgb2.jpg");
+    align-items: center;
+}
+
+.marvel {
+    align-items: center;
+}
+
+#tagn2 {
+    margin-top: 80;
+    font-size: 30;
+    position: absolute;
+    margin-left: 40%;
+}
+
+.connect {
+    font-size: 70;
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 100;
+}
+
+.part1 {
+    font-size: 40;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 250;
+}
+
+.part2 {
+    font-size: 40;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 450;
+    align-content: center;
+}
+
+.part3 {
+    font-size: 40;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 650;
+}
+
+.smallimg1 {
+    height: 160px;
+    margin: 0%;
+    position: absolute;
+    content: icon;
+    margin-left: 360px;
+    margin-top: 250px;
+}
+
+.smallimg2 {
+    height: 100px;
+    position: absolute;
+    content: icon;
+    margin-left: 340px;
+    margin-top: 450px;
+}
+
+.smallimg3 {
+    height: 220px;
+    margin: 0%;
+    position: absolute;
+    content: icon;
+    margin-left: 360px;
+    margin-top: 550px;
+}
+
+.png_s {
+    margin-left: 10px;
+    margin-top: 29px;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 50px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.gif1 {
+    margin-left: 33%;
+    margin-top: -8%;
+}
+
+
+/*imported code For stylish search button*/
+
+:root {
+    font-size: calc(16px + (24 - 16)*(100vw - 320px)/(1920 - 320));
+}
+
+button,
+input {
+    font: 1em Hind, sans-serif;
+    line-height: 1.5em;
+}
+
+input {
+    color: #171717;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input,
+.search-btn,
+.search-btn:before,
+.search-btn:after {
+    transition: all 0.25s ease-out;
+}
+
+.search-bar input,
+.search-btn {
+    width: 3em;
+    height: 3em;
+}
+
+.search-bar input:invalid:not(:focus),
+.search-btn {
+    cursor: pointer;
+}
+
+.search-bar,
+.search-bar input:focus,
+.search-bar input:valid {
+    width: 100%;
+}
+
+.search-bar input:focus,
+.search-bar input:not(:focus)+.search-btn:focus {
+    outline: transparent;
+}
+
+.search-bar {
+    margin: auto;
+    padding: 1.5em;
+    justify-content: center;
+    max-width: 30em;
+}
+
+.search-bar input {
+    background: transparent;
+    border-radius: 1.5em;
+    box-shadow: 0 0 0 0.4em #fff inset;
+    padding: 0.75em;
+    transform: translate(0.5em, 0.5em) scale(0.5);
+    transform-origin: 100% 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.search-bar input::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+.search-bar input:focus,
+.search-bar input:valid {
+    background: #fff;
+    border-radius: 0.375em 0 0 0.375em;
+    box-shadow: 0 0 0 0.1em #d9d9d9 inset;
+    transform: scale(1);
+}
+
+.search-btn {
+    background: #fcf8f8;
+    border-radius: 0 0.75em 0.75em 0 / 0 1.5em 1.5em 0;
+    padding: 0.75em;
+    position: relative;
+    transform: translate(0.25em, 0.25em) rotate(45deg) scale(0.25, 0.125);
+    transform-origin: 0 50%;
+}
+
+.search-btn:before,
+.search-btn:after {
+    content: "";
+    display: block;
+    opacity: 0;
+    position: absolute;
+}
+
+.search-btn:before {
+    border-radius: 50%;
+    box-shadow: 0 0 0 0.2em #f1f1f1 inset;
+    top: 0.75em;
+    left: 0.75em;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.search-btn:after {
+    background: #f1f1f1;
+    border-radius: 0 0.25em 0.25em 0;
+    top: 51%;
+    left: 51%;
+    width: 0.75em;
+    height: 0.25em;
+    transform: translate(0.2em, 0) rotate(45deg);
+    transform-origin: 0 50%;
+}
+
+.search-btn span {
+    display: inline-block;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+}
+
+
+/* Active state */
+
+.search-bar input:focus+.search-btn,
+.search-bar input:valid+.search-btn {
+    background: #2762f3;
+    border-radius: 0 0.375em 0.375em 0;
+    transform: scale(1);
+}
+
+.search-bar input:focus+.search-btn:before,
+.search-bar input:focus+.search-btn:after,
+.search-bar input:valid+.search-btn:before,
+.search-bar input:valid+.search-btn:after {
+    opacity: 1;
+}
+
+.search-bar input:focus+.search-btn:hover,
+.search-bar input:valid+.search-btn:hover,
+.search-bar input:valid:not(:focus)+.search-btn:focus {
+    background: #0c48db;
+}
+
+.search-bar input:focus+.search-btn:active,
+.search-bar input:valid+.search-btn:active {
+    transform: translateY(1px);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    input {
+        color: #f1f1f1;
+    }
+    .search-bar input {
+        box-shadow: 0 0 0 0.4em #f1f1f1 inset;
+    }
+    .search-bar input:focus,
+    .search-bar input:valid {
+        background: #fcf9f9;
+        box-shadow: 0 0 0 0.1em #3d3d3d inset;
+    }
+    .search-btn {
+        background: #f1f1f1;
+    }
+}
