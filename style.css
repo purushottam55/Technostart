@@ -89,14 +89,14 @@
 }
 
 .firstsection {
-    background-image: url("/images/imgb2.jpg");
+    background-image: url("imgb2.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
 
 .secondsection {
-    background-image: url("/images/techimg2.jpg");
+    background-image: url("techimg2.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
