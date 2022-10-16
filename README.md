@@ -1,2 +1,4 @@
 # Technostart
-This website is about technical start up in these website we used HTML , CSS and javascript.
+This is my first website by webdevolopement
+it is related to technical startup
+  
